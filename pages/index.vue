@@ -1,3 +1,16 @@
+<script setup>
+useHead({
+  title: 'André Oliveira | UX/UI Brand Designer',
+  meta: [
+    { name: 'description', content: 'Designer especializado em UX/UI, web design e identidade visual. Transformo ideias em experiências e marcas.' },
+    { name: 'keywords', content: 'Designer UX/UI, Web Design, Identidade Visual, Design de Produtos Digitais, Designer em São Paulo, Criação de Websites, Front-end, UX Designer, UI Designer, Programação para Designers, André Oliveira Designer' },
+    { property: 'og:title', content: 'André Oliveira | UX/UI Brand Designer' },
+    { property: 'og:description', content: 'Designer especializado em UX/UI, web design e identidade visual. Transformo ideias em experiências e marcas.'},
+    { property: 'og:image', content: 'https://example.com/imagem.jpg' },
+    { name: 'twitter:card', content: 'summary_large_image' },
+  ]
+})
+</script>
 <template>
     <div class="row">
         <div class="offset-lg-1 col-lg-7">
