@@ -7,10 +7,6 @@ const isMenuActive = inject('isMenuActive');
 // Recebendo a função closeMenu para fechar o menu ao clicar nos links
 const closeMenu = inject('closeMenu');
 
-if (!closeMenu) {
-  console.error('❌ ERRO: closeMenu não foi injetado corretamente!');
-}
-
 // Função para fechar o menu ao clicar em um link
 const handleLinkClick = () => {
   if (closeMenu) {
