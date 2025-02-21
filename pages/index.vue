@@ -8,6 +8,9 @@ useHead({
     { property: 'og:description', content: 'Designer especializado em UX/UI, web design e identidade visual. Transformo ideias em experiências e marcas.'},
     { property: 'og:image', content: 'https://andreoliveira.des.br/.netlify/images?w=1536&fm=avif&url=%2Fimages%2Fog.png' },
     { name: 'twitter:card', content: 'summary_large_image' },
+    { name: 'twitter:title', content: 'André Oliveira | UX/UI Brand Designer' },
+    { name: 'twitter:description', content: 'Designer especializado em UX/UI, web design e identidade visual. Transformo ideias em experiências e marcas.' },
+    { name: 'twitter:image', content: 'https://andreoliveira.des.br/.netlify/images?w=1536&fm=avif&url=%2Fimages%2Fog.png' },
   ]
 })
 </script>
