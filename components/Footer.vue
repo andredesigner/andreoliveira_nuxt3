@@ -4,7 +4,7 @@
             <h2>Contato</h2>
         </div>
         <div class="col-lg-7">
-            <p class="big-text">Adoraria saber mais sobre o seu projeto, tomar um café para falar sobre design e fazer network.</p>
+            <p class="big-text">Adoraria conhecer mais sobre seu projeto, trocar ideias sobre design ou simplesmente tomar um café para expandir nosso networking.</p>
             <a class="link-ao mt-40" href="mailto:andresoliveiradesigner@gmail.com?subject=Contato via portfólio&body=Olá, André... " target="_blank">Vamos conversar 
                 <svg width="26" height="24" viewBox="0 0 26 24" fill="none" xmlns="http://www.w3.org/2000/svg">
                     <path d="M7.5 12H18.3333M14.1667 7L18.5774 11.4107C18.9028 11.7362 18.9028 12.2638 18.5774 12.5893L14.1667 17" stroke="#9747FF" stroke-width="1.5" stroke-linecap="round"/>
