@@ -11,7 +11,8 @@ export default defineNuxtConfig({
 
   css: ['~/assets/scss/main.scss'],
 
-  modules: [['@nuxtjs/google-fonts', {
+  modules: [
+    ['@nuxtjs/google-fonts', {
       families: {
         Labrada: {
           wght: '300..400',
@@ -19,10 +20,16 @@ export default defineNuxtConfig({
         },
         Inter: [300, 400],
       }
-  }], 
-  '@nuxtjs/google-fonts',
-  '@nuxt/image'
+    }], 
+    '@nuxt/image',
+    '@nuxtjs/google-gtag'
   ],
+
+  runtimeConfig: {
+    public: {
+      googleAnalyticsId: 'G-P6HJWKZ279',
+    }
+  },
 
   devServer: {     
     port: 3000, // default: 3000     
