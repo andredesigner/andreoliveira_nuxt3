@@ -42,6 +42,10 @@ export default defineNuxtConfig({
     }
   }], '@nuxt/image'],
 
+  image: {
+    provider: 'static' // Força a busca das imagens no public/
+  },
+
   devServer: {     
     port: 3000, // default: 3000     
     host: '0.0.0.0', // default: localhost   
