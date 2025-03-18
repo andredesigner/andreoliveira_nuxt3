@@ -23,7 +23,7 @@ useHead({
             </div>
         </div>
         <div class="col-lg-6 mt-4">
-            <NuxtLink class="d-block project-item" to="/grupo-paes-imoveis">
+            <NuxtLink class="d-block project-item" to="">
                 <NuxtImg class="d-block w-100" format="avif,webp" src="/images/projects/grupo-paes/thumb.png" />
                 <h2>Grupo Paes 
                     <svg width="26" height="24" viewBox="0 0 26 24" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -35,7 +35,7 @@ useHead({
             </NuxtLink>
         </div>
         <div class="col-lg-6 mt-4">
-            <NuxtLink class="d-block project-item" to="/hyundai-motors">
+            <NuxtLink class="d-block project-item" to="">
                 <NuxtImg class="d-block w-100" format="avif,webp" src="/images/projects/hyundai/thumb.png" />
                 <h2>Hyundai
                     <svg width="26" height="24" viewBox="0 0 26 24" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -47,7 +47,7 @@ useHead({
             </NuxtLink>
         </div>
         <div class="col-lg-6 mt-4">
-            <NuxtLink class="d-block project-item" to="/pibitaquera">
+            <NuxtLink class="d-block project-item" to="">
                 <NuxtImg class="d-block w-100" format="avif,webp" src="/images/projects/pib-itaquera/thumb.png" />
                 <h2>PIB Itaquera
                     <svg width="26" height="24" viewBox="0 0 26 24" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -59,7 +59,7 @@ useHead({
             </NuxtLink>
         </div>
         <div class="col-lg-6 mt-4">
-            <NuxtLink class="d-block project-item" to="/zeferina-producoes">
+            <NuxtLink class="d-block project-item" to="">
                 <NuxtImg class="d-block w-100" format="avif,webp" src="/images/projects/zeferina/thumb.png" />
                 <h2>Zeferina
                     <svg width="26" height="24" viewBox="0 0 26 24" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -71,7 +71,7 @@ useHead({
             </NuxtLink>
         </div>
         <div class="col-lg-6 mt-4">
-            <NuxtLink class="d-block project-item" to="/maella-bela">
+            <NuxtLink class="d-block project-item" to="">
                 <NuxtImg class="d-block w-100" format="avif,webp" src="/images/projects/maella-bela/thumb.png" />
                 <h2>Maella Bela
                     <svg width="26" height="24" viewBox="0 0 26 24" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -83,7 +83,7 @@ useHead({
             </NuxtLink>
         </div>
         <div class="col-lg-6 mt-4">
-            <NuxtLink class="d-block project-item" to="/praticapp">
+            <NuxtLink class="d-block project-item" to="">
                 <NuxtImg class="d-block w-100" format="avif,webp" src="/images/projects/praticapp/thumb.png" />
                 <h2>Pratic App
                     <svg width="26" height="24" viewBox="0 0 26 24" fill="none" xmlns="http://www.w3.org/2000/svg">
