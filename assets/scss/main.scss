@@ -7,8 +7,18 @@ body{
     font-weight: 300;
     color: $color2;
     font-size: 20px;
+    font-weight: 400;
     line-height: 160%;
     position: relative;
+
+    @media ( max-width:$medium ) {
+        font-size: 18px;
+    } 
+
+    @media ( min-width:$medium ) {
+        padding-right: 1.4rem;
+        padding-left: 1.4rem;
+    } 
 
     &.active{
         overflow: hidden;
@@ -16,9 +26,9 @@ body{
 }
 
 .colored-slice{
-    height: 8px;
     background-color: $color1;
     z-index: 1;
+    height: 0;
     top: 0;
     width: 100%;
     transition: all 0.3s ease-in-out;
@@ -35,7 +45,6 @@ body{
 }
 
 p{
-    font-size: 20px;
     line-height: 160%;
     @media ( max-width:$medium ) {
         font-size: 18px;
@@ -50,20 +59,25 @@ p{
     }
 
     &.big-text{
-        font-size: 24px;
+        font-size: 32px;
+        margin-top: 12px;
+        margin-bottom: 0;
         @media ( max-width:$medium ) {
-            font-size: 20px;
+            font-size: 24px;
         }   
     }
+}
 
-    a{
-        font-family: $font2;
-        text-decoration: none;
-        color: $color4;
-        font-weight: 400;
-        font-style: italic;
-        font-size: 1.2em;
-    }
+a{
+    font-family: $font2;
+    text-decoration: none;
+    color: $color4;
+    font-weight: 400;
+    font-style: italic;
+    font-size: 24px;
+    @media ( max-width:$medium ) {
+        font-size: 20px;
+    } 
 }
 
 h1,
@@ -72,28 +86,32 @@ h3,
 h4{
     letter-spacing: -1px;
     line-height: 140%;
+    font-weight: 400;
 
     span{
         font-family: $font2;
         font-style: italic;
-        font-size: 1.1em;
         letter-spacing: normal;
-        @media ( max-width:$medium ) {
-            display: block;
-        }
     }
 }
 
 h1{
     font-size: 48px;
-    @media ( max-width:$medium ) {
-        font-size: 36px;
-    }
+    margin-bottom: 0;
 
+    @media ( max-width:$medium ) {
+        font-size: 32px;
+    }
+    span{
+        font-size: 54px;
+        @media ( max-width:$medium ) {
+            font-size: 38px;
+        }
+    }
 }
 
 h2{
-    font-size: 40px;
+    font-size: 36px;
     @media ( max-width:$medium ) {
         font-size: 32px;
     }
@@ -114,10 +132,8 @@ h4{
 }
 
 .header-ao{
-    margin-top: 80px;
-    @media ( max-width:$medium ) {
-        margin-top: 40px;
-    }
+    margin-top: 40px;
+   
 
     .menu-action-mobile{
         z-index: 2;
@@ -156,30 +172,42 @@ h4{
         }    
 
         a{
+
+            font-family: $font2;
+            text-decoration: none;
             color: $color2;
+            font-weight: 400;
+            font-style: italic;
+            font-size: 26px;
+
             display: block;
-            font-size: 24px;
             padding: 10px 12px;
             border-radius: 2px;
             text-decoration: none;
-            font-weight: 400;
             border-radius: 4px;
             @media ( max-width:$medium ) {
                 font-size: 36px;
                 text-align: right;
-            }        
-
-            &:hover{
-                background-color: $color1;
+            } 
+            @media ( min-width:$medium ) {
+                &:hover{
+                    background-color: $color6;
+                    color: $color3;
+                }
+    
+                &:active{
+                    color: $color1;
+                    border-color: transparent;
+                }
             }
         }
     }
 }
 
 .footer-ao{
-    background-color: $color6;
-    padding: 80px 40px;
-    color: $color3;
+    padding-top: 40px;
+    padding-bottom: 80px;
+
     @media ( max-width:$medium ) {
         padding-left: 0;
         padding-right: 0;
@@ -188,28 +216,24 @@ h4{
 
     ul{
         padding: 0;
-        margin: 12px 0 0 0;
+        margin: 20px 0 0 0;
         list-style: none;
         display: flex;
         gap: 20px;
-    }
 
-    a{
-        color: $color3;
-        text-decoration: none;
-        line-height: 160%;
+        a{
+            color: $color2;
+        }
     }
-
-    span{
-        font-family: $font2;
-        line-height: 180%;
-    }
-
 }
 
 .mx-100{
-    margin-top: 100px;
+    margin-top: 140px;
     margin-bottom: 100px;
+
+    @media ( min-width:$medium ){
+
+    }
 }
 
 .mt-40{
@@ -251,19 +275,6 @@ h4{
     }
 }
 
-.link-ao{
-    color: $color4;
-    font-family: $font2;
-    font-weight: 400;
-    text-decoration: none;
-    font-size: 24px;
-    display: flex;
-    align-items: center;
-    gap: 10px;
-
-    
-}
-
 svg{
     height: auto;
 }
@@ -278,4 +289,61 @@ svg{
     @media ( max-width:$medium ) {
         border-top: 1px solid #EAD8B0;
     }
+}
+
+.wrap-contact{
+    margin-top: 80px;
+    margin-bottom: 80px;
+
+    h2{
+        font-weight: 400;
+        margin-bottom: 40px;
+    }
+}
+
+.project-item{
+    margin-bottom: 100px;
+    color: $color2;
+
+    h2{
+        margin-top: 40px;
+        margin-bottom: 20px;
+    }
+
+    &:hover{
+        h2{
+            color: $color4;
+        }
+    }
+
+    p{
+        font-family: $font1;
+        font-style: normal;
+        line-height: 140%;
+    }
+
+    span{
+        color: $color6;
+    }
+}
+
+.wrap-predinhos{
+    background-color: $color1;
+    display: flex;
+    align-items: end;
+
+    height: 100%;
+
+    svg{
+        width: 100%;
+    }
+}
+
+.breadcrumb{
+    grid-column-gap: 8px;
+    grid-row-gap: 8px;
+    justify-content: flex-start;
+    align-items: center;
+    margin-bottom: 8px;
+    display: flex;
 }

@@ -17,8 +17,8 @@ const toggleMenu = inject('toggleMenu');
       @click="toggleMenu"
       :class="{ active: isMenuActive }"
     >
-      <rect class="top-bar" x="2" y="2" width="32" height="4" fill="#0E0B0F" />
-      <rect class="bottom-bar" x="2" y="30" width="32" height="4" fill="#0E0B0F" />
+      <rect class="top-bar" x="2" y="4" width="32" height="4" fill="#0E0B0F" />
+      <rect class="bottom-bar" x="2" y="28" width="32" height="4" fill="#0E0B0F" />
     </svg>
   </template>
 
@@ -34,11 +34,11 @@ const toggleMenu = inject('toggleMenu');
   }
   
   .menu-action-mobile.active .top-bar {
-    transform: translateY(14px);
+    transform: translateY(12px);
   }
   
   .menu-action-mobile.active .bottom-bar {
-    transform: translateY(-14px);
+    transform: translateY(-12px);
   }
   </style>
   
