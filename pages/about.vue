@@ -34,7 +34,8 @@ useHead({
         </div>
         <div class="col-4 col-lg-4">
           <NuxtLink class="d-block" to="">
-                <NuxtImg class="d-block w-100" format="avif,webp" src="/images/andre-oliveira.png" />
+                <!-- <NuxtImg class="d-block w-100" format="avif,webp" src="/images/andre-oliveira.png" /> -->
+                <img class="d-block w-100" src="/images/andre-oliveira.png" alt="">
           </NuxtLink>
         </div>
 
