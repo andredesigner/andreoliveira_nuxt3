@@ -24,7 +24,8 @@ useHead({
         </div>
         <div class="col-lg-6 mt-4">
             <NuxtLink class="d-block project-item" to="">
-                <NuxtImg class="d-block w-100" format="avif,webp" src="/images/projects/grupo-paes/thumb.png" />
+                <!-- <NuxtImg class="d-block w-100" format="avif,webp" src="/images/projects/grupo-paes/thumb.png" /> -->
+                <img class="d-block w-100" src="/images/projects/grupo-paes/thumb.png" alt="">
                 <h2>Grupo Paes 
                     <svg width="26" height="24" viewBox="0 0 26 24" fill="none" xmlns="http://www.w3.org/2000/svg">
                         <path d="M7.5 12H18.3333M14.1667 7L18.5774 11.4107C18.9028 11.7362 18.9028 12.2638 18.5774 12.5893L14.1667 17" stroke="#3E5FAA" stroke-width="1.5" stroke-linecap="round"/>
@@ -36,7 +37,8 @@ useHead({
         </div>
         <div class="col-lg-6 mt-4">
             <NuxtLink class="d-block project-item" to="">
-                <NuxtImg class="d-block w-100" format="avif,webp" src="/images/projects/hyundai/thumb.png" />
+                <!-- <NuxtImg class="d-block w-100" format="avif,webp" src="/images/projects/hyundai/thumb.png" /> -->
+                <img class="d-block w-100" src="/images/projects/hyundai/thumb.png" alt="">
                 <h2>Hyundai
                     <svg width="26" height="24" viewBox="0 0 26 24" fill="none" xmlns="http://www.w3.org/2000/svg">
                         <path d="M7.5 12H18.3333M14.1667 7L18.5774 11.4107C18.9028 11.7362 18.9028 12.2638 18.5774 12.5893L14.1667 17" stroke="#3E5FAA" stroke-width="1.5" stroke-linecap="round"/>
@@ -48,7 +50,8 @@ useHead({
         </div>
         <div class="col-lg-6 mt-4">
             <NuxtLink class="d-block project-item" to="">
-                <NuxtImg class="d-block w-100" format="avif,webp" src="/images/projects/pib-itaquera/thumb.png" />
+                <!-- <NuxtImg class="d-block w-100" format="avif,webp" src="/images/projects/pib-itaquera/thumb.png" /> -->
+                <img class="d-block w-100" src="/images/projects/pib-itaquera/thumb.png" alt="">
                 <h2>PIB Itaquera
                     <svg width="26" height="24" viewBox="0 0 26 24" fill="none" xmlns="http://www.w3.org/2000/svg">
                         <path d="M7.5 12H18.3333M14.1667 7L18.5774 11.4107C18.9028 11.7362 18.9028 12.2638 18.5774 12.5893L14.1667 17" stroke="#3E5FAA" stroke-width="1.5" stroke-linecap="round"/>
@@ -60,7 +63,8 @@ useHead({
         </div>
         <div class="col-lg-6 mt-4">
             <NuxtLink class="d-block project-item" to="">
-                <NuxtImg class="d-block w-100" format="avif,webp" src="/images/projects/zeferina/thumb.png" />
+                <!-- <NuxtImg class="d-block w-100" format="avif,webp" src="/images/projects/zeferina/thumb.png" /> -->
+                <img class="d-block w-100" src="/images/projects/zeferina/thumb.png" alt="">
                 <h2>Zeferina
                     <svg width="26" height="24" viewBox="0 0 26 24" fill="none" xmlns="http://www.w3.org/2000/svg">
                         <path d="M7.5 12H18.3333M14.1667 7L18.5774 11.4107C18.9028 11.7362 18.9028 12.2638 18.5774 12.5893L14.1667 17" stroke="#3E5FAA" stroke-width="1.5" stroke-linecap="round"/>
@@ -72,7 +76,8 @@ useHead({
         </div>
         <div class="col-lg-6 mt-4">
             <NuxtLink class="d-block project-item" to="">
-                <NuxtImg class="d-block w-100" format="avif,webp" src="/images/projects/maella-bela/thumb.png" />
+                <!-- <NuxtImg class="d-block w-100" format="avif,webp" src="/images/projects/maella-bela/thumb.png" /> -->
+                <img class="d-block w-100" src="/images/projects/maella-bela/thumb.png" alt="">
                 <h2>Maella Bela
                     <svg width="26" height="24" viewBox="0 0 26 24" fill="none" xmlns="http://www.w3.org/2000/svg">
                         <path d="M7.5 12H18.3333M14.1667 7L18.5774 11.4107C18.9028 11.7362 18.9028 12.2638 18.5774 12.5893L14.1667 17" stroke="#3E5FAA" stroke-width="1.5" stroke-linecap="round"/>
@@ -84,7 +89,8 @@ useHead({
         </div>
         <div class="col-lg-6 mt-4">
             <NuxtLink class="d-block project-item" to="">
-                <NuxtImg class="d-block w-100" format="avif,webp" src="/images/projects/praticapp/thumb.png" />
+                <!-- <NuxtImg class="d-block w-100" format="avif,webp" src="/images/projects/praticapp/thumb.png" /> -->
+                <img class="d-block w-100" src="/images/projects/praticapp/thumb.png" alt="">
                 <h2>Pratic App
                     <svg width="26" height="24" viewBox="0 0 26 24" fill="none" xmlns="http://www.w3.org/2000/svg">
                         <path d="M7.5 12H18.3333M14.1667 7L18.5774 11.4107C18.9028 11.7362 18.9028 12.2638 18.5774 12.5893L14.1667 17" stroke="#3E5FAA" stroke-width="1.5" stroke-linecap="round"/>
