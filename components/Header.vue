@@ -18,14 +18,12 @@ const handleLinkClick = () => {
 
 <template>
     <header class="header-ao row">
-        <div class="col-lg-6 d-flex justify-content-between">
+        <div class="my-wrap">
             <NuxtLink to="/">
                 <Logo />
             </NuxtLink>
             <MenuToggle />
-        </div>
-        <div class="col-lg-6">
-            <ul class="wrap-nav" :class="{ active: isMenuActive }">
+            <ul class="offset wrap-nav" :class="{ active: isMenuActive }">
                 <li>
                     <NuxtLink class="btn" to="/"  @click="handleLinkClick">Início</NuxtLink>
                 </li>

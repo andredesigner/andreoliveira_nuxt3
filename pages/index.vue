@@ -22,7 +22,7 @@ useHead({
                 <p class="mt-4">Especialista em design de produtos digitais, criação e desenvolvimento de websites, além de identidade visual.</p>
             </div>
         </div>
-        <div class="col-lg-6 mt-4">
+        <div class="col-lg-6">
             <NuxtLink class="d-block project-item" to="">
                 <!-- <NuxtImg class="d-block w-100" format="avif,webp" src="/images/projects/grupo-paes/thumb.png" /> -->
                 <img class="d-block w-100" src="/images/projects/grupo-paes/thumb.png" alt="">
@@ -35,7 +35,7 @@ useHead({
                 <span>UX Design, Marca</span>
             </NuxtLink>
         </div>
-        <div class="col-lg-6 mt-4">
+        <div class="col-lg-6">
             <NuxtLink class="d-block project-item" to="">
                 <!-- <NuxtImg class="d-block w-100" format="avif,webp" src="/images/projects/hyundai/thumb.png" /> -->
                 <img class="d-block w-100" src="/images/projects/hyundai/thumb.png" alt="">
@@ -48,7 +48,7 @@ useHead({
                 <span>UX Design</span>
             </NuxtLink>
         </div>
-        <div class="col-lg-6 mt-4">
+        <div class="col-lg-6">
             <NuxtLink class="d-block project-item" to="">
                 <!-- <NuxtImg class="d-block w-100" format="avif,webp" src="/images/projects/pib-itaquera/thumb.png" /> -->
                 <img class="d-block w-100" src="/images/projects/pib-itaquera/thumb.png" alt="">
@@ -61,7 +61,7 @@ useHead({
                 <span>UX Design, Marca</span>
             </NuxtLink>
         </div>
-        <div class="col-lg-6 mt-4">
+        <div class="col-lg-6">
             <NuxtLink class="d-block project-item" to="">
                 <!-- <NuxtImg class="d-block w-100" format="avif,webp" src="/images/projects/zeferina/thumb.png" /> -->
                 <img class="d-block w-100" src="/images/projects/zeferina/thumb.png" alt="">
@@ -74,7 +74,7 @@ useHead({
                 <span>UX Design</span>
             </NuxtLink>
         </div>
-        <div class="col-lg-6 mt-4">
+        <div class="col-lg-6">
             <NuxtLink class="d-block project-item" to="">
                 <!-- <NuxtImg class="d-block w-100" format="avif,webp" src="/images/projects/maella-bela/thumb.png" /> -->
                 <img class="d-block w-100" src="/images/projects/maella-bela/thumb.png" alt="">
@@ -87,7 +87,7 @@ useHead({
                 <span>Marca</span>
             </NuxtLink>
         </div>
-        <div class="col-lg-6 mt-4">
+        <div class="col-lg-6">
             <NuxtLink class="d-block project-item" to="">
                 <!-- <NuxtImg class="d-block w-100" format="avif,webp" src="/images/projects/praticapp/thumb.png" /> -->
                 <img class="d-block w-100" src="/images/projects/praticapp/thumb.png" alt="">

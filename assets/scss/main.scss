@@ -133,7 +133,13 @@ h4{
 
 .header-ao{
     margin-top: 40px;
-   
+
+    .my-wrap{
+        @media ( max-width:$medium ) {
+            display: flex;
+            justify-content: space-between;
+        }
+    }
 
     .menu-action-mobile{
         z-index: 2;
@@ -211,12 +217,12 @@ h4{
     @media ( max-width:$medium ) {
         padding-left: 0;
         padding-right: 0;
-        gap: 80px;
+        gap: 60px;
     }    
 
     ul{
         padding: 0;
-        margin: 20px 0 0 0;
+        margin: 12px 0 0 0;
         list-style: none;
         display: flex;
         gap: 20px;
@@ -292,13 +298,7 @@ svg{
 }
 
 .wrap-contact{
-    margin-top: 80px;
-    margin-bottom: 80px;
-
-    h2{
-        font-weight: 400;
-        margin-bottom: 40px;
-    }
+    margin-bottom: 6rem;
 }
 
 .project-item{
@@ -306,7 +306,7 @@ svg{
     color: $color2;
 
     h2{
-        margin-top: 40px;
+        margin-top: 20px;
         margin-bottom: 20px;
     }
 
@@ -331,6 +331,7 @@ svg{
     background-color: $color1;
     display: flex;
     align-items: end;
+    padding-top: 100px;
 
     height: 100%;
 
@@ -346,4 +347,34 @@ svg{
     align-items: center;
     margin-bottom: 8px;
     display: flex;
+}
+
+.andre-oliveira{
+    @media ( max-width:$medium ) {
+        margin-top: 1.5rem;
+    }
+}
+
+.my-wrap{
+    display: grid;
+    gap: 1rem;
+
+    @media ( min-width:$medium ) {
+        grid-template-columns: repeat(3,1fr);
+        gap: 1.2rem; 
+
+        .offset{
+            grid-column:span 2; /* take 2 columns */
+            width: calc((100% - 1.2rem)/2); /* take the width of one column */
+            margin-left: auto; /* get placed at the second column */
+        }
+
+        .span-2{
+            grid-column:span 2; /* take 2 columns */
+        }
+    }
+}
+
+.content-separation-top{
+    margin-top: 6rem;
 }
