@@ -24,8 +24,8 @@ useHead({
             <div class="breadcrumb">
               <div>Sobre</div>
             </div>
-            <h1 class="about-page"><span>Olá,</span> meu nome é André Oliveira. Minha paixão está no encontro entre design, desenvolvimento web e branding.</h1>
-            <p class="mt-4">Tenho mais de 10 anos de experiência com design. Acredito no design como uma ferramenta estratégica para conectar marcas e pessoas.</p>
+            <h1 class="about-page"><span>Olá,</span> meu nome é André Oliveira. Minha paixão está no encontro entre design, tecnologia e marca.</h1>
+            <p class="mt-4">Tenho mais de 10 anos de experiência com design. Acredito no design como uma ferramenta estratégica que entende marcas e pessoas, olhando para as necessidades do negócio e alinhando-as às expectativas do usuário, gerando valor para ambos os lados.</p>
           </div>
         </div>
         <div class="col-12 col-lg-8">
