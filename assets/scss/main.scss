@@ -113,7 +113,7 @@ h1{
 h2{
     font-size: 36px;
     @media ( max-width: variables.$medium ) {
-        font-size: 32px;
+        font-size: 28px;
     }
 }
 
@@ -302,7 +302,7 @@ svg{
 }
 
 .wrap-project{
-    padding: 100px 0;
+    padding: 0 0 100px 0;
 }
 
 .project-item{
