@@ -2,7 +2,16 @@
 export default defineNuxtConfig({
   app: {
     head: {
-      link: [{ rel: 'stylesheet', href: 'https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css' }],
+      link: [
+        {
+          rel: 'stylesheet',
+          href: 'https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css' 
+        },
+        {
+          rel: 'stylesheet',
+          href: 'https://use.typekit.net/qqr8kba.css' 
+        }
+      ],
       script: [
         {
           hid: 'google-analytics',
@@ -37,8 +46,7 @@ export default defineNuxtConfig({
       Labrada: {
         wght: '300..400',
         ital: '400',
-      },
-      Inter: [300, 400],
+      }
     }
   }], '@nuxt/image'],
 
