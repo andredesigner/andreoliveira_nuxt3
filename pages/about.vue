@@ -2,17 +2,17 @@
 import Predinhos from '~/components/Predinhos.vue';
 
 useHead({
-  title: 'André Oliveira | UX/UI Brand Designer',
+  title: 'Sobre - André Oliveira | UX/UI & Brand Designer',
   meta: [
-    { name: 'description', content: 'Designer especializado em UX/UI, web design e identidade visual. Transformo ideias em experiências e marcas.' },
-    { name: 'keywords', content: 'Designer UX/UI, Web Design, Identidade Visual, Design de Produtos Digitais, Designer em São Paulo, Criação de Websites, Front-end, UX Designer, UI Designer, Programação para Designers, André Oliveira Designer' },
-    { property: 'og:title', content: 'André Oliveira | UX/UI Brand Designer' },
-    { property: 'og:description', content: 'Designer especializado em UX/UI, web design e identidade visual. Transformo ideias em experiências e marcas.'},
-    { property: 'og:image', content: 'https://andreoliveira.des.br/.netlify/images?w=1536&fm=avif&url=%2Fimages%2Fog.png' },
+    { name: 'description', content: 'Transformo ideias em experiências e marcas.' },
+    { name: 'keywords', content: 'Designer UX/UI, Web Designer, Identidade Visual, Design de Produtos Digitais, Designer em São Paulo, Criação de Websites, Front-end, UX Designer, UI Designer, Programação para Designers, André Oliveira Designer' },
+    { property: 'og:title', content: 'André Oliveira | UX/UI & Brand Designer' },
+    { property: 'og:description', content: 'Transformo ideias em experiências e marcas.'},
+    { property: 'og:image', content: '/public/images/og.png' },
     { name: 'twitter:card', content: 'summary_large_image' },
-    { name: 'twitter:title', content: 'André Oliveira | UX/UI Brand Designer' },
-    { name: 'twitter:description', content: 'Designer especializado em UX/UI, web design e identidade visual. Transformo ideias em experiências e marcas.' },
-    { name: 'twitter:image', content: 'https://andreoliveira.des.br/.netlify/images?w=1536&fm=avif&url=%2Fimages%2Fog.png' },
+    { name: 'twitter:title', content: 'André Oliveira | UX/UI & Brand Designer' },
+    { name: 'twitter:description', content: 'Transformo ideias em experiências e marcas.' },
+    { name: 'twitter:image', content: '/public/images/og.png' },
   ]
 })
 </script>
