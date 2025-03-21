@@ -6,11 +6,11 @@ useHead({
     { name: 'keywords', content: 'Designer UX/UI, Web Designer, Identidade Visual, Design de Produtos Digitais, Designer em São Paulo, Criação de Websites, Front-end, UX Designer, UI Designer, Programação para Designers, André Oliveira Designer' },
     { property: 'og:title', content: 'André Oliveira | UX/UI & Brand Designer' },
     { property: 'og:description', content: 'Transformo ideias em experiências e marcas.'},
-    { property: 'og:image', content: '/public/images/og.png' },
+    { property: 'og:image', content: '/images/og.png' },
     { name: 'twitter:card', content: 'summary_large_image' },
     { name: 'twitter:title', content: 'André Oliveira | UX/UI & Brand Designer' },
     { name: 'twitter:description', content: 'Transformo ideias em experiências e marcas.' },
-    { name: 'twitter:image', content: '/public/images/og.png' },
+    { name: 'twitter:image', content: '/images/og.png' },
   ]
 })
 </script>
