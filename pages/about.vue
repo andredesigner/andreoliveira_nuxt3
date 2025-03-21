@@ -1,23 +1,7 @@
 <script setup>
 import Predinhos from '~/components/Predinhos.vue';
 
-useHead({
-  title: 'Sobre - André Oliveira | UX/UI & Brand Designer',
-  meta: [
-    { name: 'description', content: 'Olá, meu nome é André Oliveira. Minha paixão está no encontro entre design, tecnologia e marca.' },
-    { name: 'keywords', content: 'Designer UX/UI, Web Designer, Identidade Visual, Design de Produtos Digitais, Designer em São Paulo, Criação de Websites, Front-end, UX Designer, UI Designer, Programação para Designers, André Oliveira Designer' },
 
-    { property: 'og:title', content: 'Sobre - André Oliveira | UX/UI & Brand Designer' },
-    { property: 'og:description', content: 'Olá, meu nome é André Oliveira. Minha paixão está no encontro entre design, tecnologia e marca.'},
-    { property: 'og:image', content: 'https://andreoliveira.des.br/images/og.png' },
-    { property: 'og:url', content: 'https://andreoliveira.des.br/about' },
-
-    { name: 'twitter:card', content: 'summary_large_image' },
-    { name: 'twitter:title', content: 'Sobre - André Oliveira | UX/UI & Brand Designer' },
-    { name: 'twitter:description', content: 'Olá, meu nome é André Oliveira. Minha paixão está no encontro entre design, tecnologia e marca.' },
-    { name: 'twitter:image', content: 'https://andreoliveira.des.br/images/og.png' },
-  ]
-})
 </script>
 <template>
     
