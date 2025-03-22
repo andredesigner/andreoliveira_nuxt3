@@ -43,10 +43,14 @@ export default defineNuxtConfig({
 
   modules: [['@nuxtjs/google-fonts', {
     families: {
+      'EB+Garamond': {
+        ital: '400',
+      },
       Labrada: {
         wght: '300..400',
         ital: '400',
-      }
+      },
+
     }
   }], '@nuxt/image'],
 
