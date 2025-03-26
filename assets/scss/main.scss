@@ -121,6 +121,11 @@ h4{
 
 .header-ao{
     margin-top: 40px;
+    padding: 8px 0;
+    position: sticky;
+    top: 0;
+    background-color: variables.$color3;
+    z-index: 1;
 
     .my-wrap{
         @media ( max-width: variables.$medium ) {
