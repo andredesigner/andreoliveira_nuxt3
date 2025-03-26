@@ -17,7 +17,7 @@ const handleLinkClick = () => {
 </script>
 
 <template>
-    <header class="header-ao row">
+    <header class="header-ao row" :class="{ active: isMenuActive}">
         <div class="my-wrap">
             <NuxtLink to="/">
                 <Logo />
