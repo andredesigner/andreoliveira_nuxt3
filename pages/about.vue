@@ -20,8 +20,8 @@ useHead({
 })
 </script>
 <template>
-    
-    <div class="row">
+    <div>
+      <div class="row">
         <div class="col-lg-8">
           <div class="mx-100">
             <div class="breadcrumb">
@@ -63,5 +63,7 @@ useHead({
             </svg>
           </a>
         </div>
+    </div>
+
     </div>
 </template>
