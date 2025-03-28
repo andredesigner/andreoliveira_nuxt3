@@ -16,12 +16,12 @@ const route = useRoute();
 // Detecta se a rota atual é a home
 const isHome = computed(() => route.path === '/');
 
-
 onMounted(() => {
   setTimeout(() => {
     showLoading.value = false;
   }, 5000); // Aguarda 5s no máximo
 });
+
 </script>
 
 <style>
@@ -53,4 +53,5 @@ onMounted(() => {
     opacity: 1;
   }
 }
+
 </style>

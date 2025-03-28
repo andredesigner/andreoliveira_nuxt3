@@ -1,6 +1,5 @@
 <template>
   <div v-if="show" class="loading-container">
-    <Logo class="logo-loading"></Logo>
     <div class="percentage">{{ progress }}%</div>
   </div>
 </template>

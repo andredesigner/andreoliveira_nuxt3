@@ -1,9 +1,5 @@
 <script setup>
 import {inject} from 'vue';
-  
-// Acessando o estado global do menu
-const isMenuActive = inject('isMenuActive');
-const toggleMenu = inject('toggleMenu');
 </script>
 
 <template>
@@ -14,8 +10,6 @@ const toggleMenu = inject('toggleMenu');
       viewBox="0 0 36 36"
       fill="none"
       xmlns="http://www.w3.org/2000/svg"
-      @click="toggleMenu"
-      :class="{ active: isMenuActive }"
     >
       <rect class="top-bar" x="2" y="4" width="32" height="4" fill="#0E0B0F" />
       <rect class="bottom-bar" x="2" y="28" width="32" height="4" fill="#0E0B0F" />

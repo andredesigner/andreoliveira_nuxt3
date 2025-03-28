@@ -1,36 +1,63 @@
 <script setup lang="ts">
 import { inject } from 'vue';
-
-// Criando estado global do menu
-const isMenuActive = inject('isMenuActive');
-
-// Recebendo a função closeMenu para fechar o menu ao clicar nos links
-const closeMenu = inject('closeMenu');
-
-// Função para fechar o menu ao clicar em um link
-const handleLinkClick = () => {
-  if (closeMenu) {
-    closeMenu();
-  }
-};
-
 </script>
 
 <template>
-    <header class="header-ao row" :class="{ active: isMenuActive}">
-        <div class="my-wrap">
-            <NuxtLink to="/">
-                <Logo />
-            </NuxtLink>
-            <MenuToggle />
-            <ul class="offset wrap-nav" :class="{ active: isMenuActive }">
-                <li>
-                    <NuxtLink class="btn" to="/"  @click="handleLinkClick">Início</NuxtLink>
-                </li>
-                <li>
-                    <NuxtLink class="btn" to="about"  @click="handleLinkClick">Sobre</NuxtLink>
-                </li>
-            </ul>
-        </div>
+    <header class="my-header">
+        <ul class="grid-container">
+            <li>
+                <a href="#start">
+                    <strong>andré oliveira</strong>
+                </a>
+            </li>
+            <li>
+                <a href="#about">sobre</a>
+            </li>
+            <li>
+                <a href="#projects">projetos <span>4</span></a>
+            </li>
+            <li>
+                <a href="#contact">contato</a>
+            </li>
+        </ul>
     </header>
 </template>
+
+<style>
+    .my-header{
+        background: rgba(255, 252, 245, 0.9);
+        backdrop-filter: blur(20px);
+        @media (min-width: 992px) {
+            position: sticky;
+            top: 0;
+            z-index: 2;   
+        }
+
+        .grid-container{
+            margin: 0;
+            list-style: none;
+            grid-auto-rows: auto;
+            padding-top: 0;
+
+            @media (max-width: 768px) {
+                grid-template-columns: repeat(2, 1fr);
+            }
+
+            li{
+
+                a{
+                    color: #5C4A20;
+                    text-decoration: none;
+                    display: block;
+                    padding: 12px 0;
+
+                    span{
+                        font-size: .8rem;
+                        display: inline-block;
+                        translate: 0 -8px;
+                    }
+                }
+            }
+        }
+    }
+</style>
