@@ -10,7 +10,7 @@
                 <div class="row">
                     <div class="col-lg-3">
                         <p>Que tal um bate papo sobre design ou marcar para tomar um café para expandir nosso networking.</p>
-                        <a href="">Vamos conversar</a>
+                        <a href="mailto:andreoliveiradesigner@andreoliveira.des.br?subject=Contato através do portfólio&cc=copia@provedor.com.br&body=Olá, André" >Vamos conversar</a>
                     </div>
 
                     <div class="offset-lg-2 col-lg-4">
