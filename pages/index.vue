@@ -1,4 +1,5 @@
 <script setup>
+
 useHead({
   title: 'André Oliveira | UX/UI & Brand Designer',
   meta: [
@@ -33,7 +34,7 @@ onMounted(() => {
 
 </script>
 <template>
-    <div id="start">
+    <section id="start">
         <div class="grid-container">
             <div class="item"></div>
             <div class="item"></div> 
@@ -44,54 +45,58 @@ onMounted(() => {
                 <div class="grid-container grid-title"></div>
             </div>
         </div>
-    </div>
-    <div id="about">
-        <div class="grid-container">
-            <div class="item">
-                <h2>Minha paixão está no encontro entre design e tecnologia.</h2>
+    </section>
+    <section id="about">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-lg-6">
+                    <h2>Minha paixão está no encontro entre design e tecnologia.</h2>
+                </div>
+                <div class="offset-lg-3 col-lg-2">
+                    <img class="d-block w-100 andre-oliveira mb-5" src="/images/andre-oliveira.png" alt="">
+                </div>
             </div>
-            <div class="item">
-                <p>Tenho mais de 10 anos de experiência com design. Acredito no design como uma ferramenta estratégica que aborda marcas e pessoas, olhando para o interesse desses e gerando valor para ambos os lados.</p>
-            </div>
-            <div class="item">
-                <img class="d-block w-100 andre-oliveira" src="/images/andre-oliveira.png" alt="">
-            </div>
-            <div class="item">
-                <p>Trabalho em diferentes segmentos do design como  produtos digitais, websites e identidade visual.</p>
-                <p>Esse portfólio foi desenvolvido por mim utilizando <a href="" target="_blank">Nuxt3 </a>.</p>
-            </div>
-            <div class="item linkedin">
-                <a href="">Linkedin</a>
-            </div>
-            <div class="item curriculo">
-                <a href="">Currículo</a>
-            </div>
-            <div class="item">
-            <p>Sou designer gráfico formado pela pela <a href="" target="_blank">Universidade Belas Artes de São Paulo</a> com curso de especialização em UX Design pela <a href="" target="_blank">Mergo Escola de Design</a> e <a href="" target="_blank">Design Circuit</a>.</p>
-            </div>
-            <div class="item">
-                <p>Ao longo da minha trajetória, atuei em agência, startups e ecommerce. Já passei pela <a href="" target="_blank">Innocean Brasil</a>, agência de publicidade do Grupo <a href="" target="_blank">Hyundai</a>.</p>
+            <div class="row">
+                <div class="col-lg-4">
+                    <p>Tenho mais de 10 anos de experiência com design. Acredito no design como uma ferramenta estratégica que aborda marcas e pessoas, olhando para o interesse desses, gerando valor para ambos os lados.</p>
+                    <p>Sou designer gráfico formado pela pela <a href="" target="_blank">Universidade Belas Artes de São Paulo</a> com curso de formação em UX Design pela <a href="" target="_blank">Mergo Escola de Design</a>.</p>
+                </div>
+                <div class="offset-lg-1 col-lg-3">
+                    <p>Trabalho em diferentes segmentos do design como  produtos digitais, websites e identidade visual. Ao longo da minha trajetória, atuei em agência, startups e ecommerce. Já passei pela <a href="" target="_blank">Innocean Brasil</a>, agência de publicidade do Grupo <a href="" target="_blank">Hyundai</a>.</p>
+                </div>
+                <div class="offset-lg-1 col-lg-2">
+                    <p>Design Digital <br>
+                    Design Gráfico <br>
+                    Design de marca <br>
+                    Experiência do usuário <br>
+                    Interface do ususário <br>
+                    Front-end <br>
+                    </p>
+                </div>
             </div>
         </div>
-    </div>
-    <div id="projects">
-        <div class="grid-container">
-            <NuxtLink class="item-project" to="/">
+       
+    </section>
+    <section id="projects">
+        <div class="container-fluid">
+            <div class="row">
+            <NuxtLink class="col-lg-6 item-project" to="/">
                 <NuxtImg src="/images/projects/grupo-paes/thumb.png" />
                 <h3>Grupo Paess</h3>
             </NuxtLink>
-            <NuxtLink class="item-project" to="/">
+            <NuxtLink class="col-lg-6 item-project" to="/">
                 <NuxtImg src="/images/projects/hyundai/thumb.png" />
                 <h3>Hyundai</h3>
             </NuxtLink>
-            <NuxtLink class="item-project" to="/">
+            <NuxtLink class="col-lg-6 item-project" to="/">
                 <NuxtImg src="/images/projects/pib-itaquera/thumb.png" />
                 <h3>PIB Itaquera</h3>
             </NuxtLink>
-            <NuxtLink class="item-project" to="/">
+            <NuxtLink class="col-lg-6 item-project" to="/">
                 <NuxtImg src="/images/projects/praticapp/thumb.png" />
                 <h3>PraticApp</h3>
             </NuxtLink>
+            </div>
         </div>
-    </div>
+    </section>
 </template>

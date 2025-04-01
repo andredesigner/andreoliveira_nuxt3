@@ -1,23 +1,17 @@
 @use 'variables';
 
-html{
-    scroll-padding: 24px;
-    @media ( min-width: variables.$medium ) {
-        scroll-padding: 74px;
-    }
-}
-
 body{
     background-color: variables.$color3;
     font-family: variables.$font1;
     font-optical-sizing: auto;
     font-weight: 300;
     color: variables.$color6;
-    font-size: 20px;
+    font-size: 16px;
     position: relative;
+    line-height: 1.4;
 
-    @media ( max-width: variables.$medium ) {
-        font-size: 18px;
+    @media ( min-width: 1500px ) {
+        font-size: 20px;
     }
 
     &.active{
@@ -28,7 +22,7 @@ body{
 p{ 
 
     @media ( max-width:variables.$medium ) {
-        font-size: 18px;
+        font-size: 16px;
     }
 
     a{
@@ -40,25 +34,24 @@ a{
     color: variables.$color4;
     font-weight: 400;
     text-decoration: none;
-
-    @media ( max-width: variables.$medium ) {
-        font-size: 20px;
-    }
 }
 
 h1{
-    font-size: 96px;
-    font-weight: 600;
+    font-size: 5.6vw;
+    font-weight: 500;
     margin-bottom: 0;
-    color: variables.$color2;
+    letter-spacing: -.02em;
 
     @media ( max-width: variables.$medium ) {
-        font-size: 44px;
+        font-size: 48px;
     }   
 }
 
 h2{
-    font-size: 40px;
+    font-size: 4.5vw;
+    margin-bottom: 80px;
+    line-height: 100%;
+    font-weight: 500;
 
     @media ( max-width: variables.$medium ) {
         font-size: 32px;
@@ -153,25 +146,29 @@ h2{
 .grid-container {
     display: grid;
     grid-template-columns: repeat(4, 1fr); /* 4 colunas */
-    grid-auto-rows: minmax(44vh, auto); /* Altura mínima das linhas */
+    grid-auto-rows: minmax(43vh, auto); /* Altura mínima das linhas */
     gap: 24px; /* Espaçamento entre os itens */
     width: 100%;
     padding-left: 24px;
     padding-right: 24px;
     margin: auto;
     margin-bottom: 24px;
+
     @media ( max-width: variables.$medium ) {
-        grid-template-columns: auto; /* 4 colunas */
-        grid-auto-rows: minmax(auto, auto); /* Altura mínima das linhas */
-        margin-top: 180px;
+        grid-template-columns: repeat(2, 1fr); /* 4 colunas */
+        grid-auto-rows: minmax(22vh, auto); /* Altura mínima das linhas */
         padding-left: 12px;
         padding-right: 12px;
+        gap: 12px; /* Espaçamento entre os itens */
     } 
 }
 
 .item{
     background-color: variables.$color3;
     transition: background-color 1.2s ease-in-out;
+    justify-content: space-between;
+    display: flex;
+    flex-direction: column;
 
     &:hover{
         background-color: variables.$color1;
@@ -180,7 +177,11 @@ h2{
 
     a,
     p{
-        padding: 2px 4px;
+        margin-bottom: 0;
+
+        @media ( min-width: variables.$medium ) {
+            padding: 2px 4px;
+        }
     }
 
     &.linkedin{
@@ -251,8 +252,9 @@ h2{
 }
 
 .item-project{
-    grid-column: span 2;
     text-decoration: none;
+    display: block;
+    margin-bottom: 100px;
 
     img{
         width: 100%;
@@ -274,58 +276,93 @@ h2{
     position: relative;
     background-color: transparent;
 
+    @media (min-width: variables.$xlarge) {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
     h1{
         pointer-events: none;
         position: relative;
         z-index: 1;
+        @media (max-width: variables.$medium ) {
+            position: absolute;
+        }
     }
     
     .grid-container {
-        position: absolute; /* Fixa o fundo na tela */
+        z-index: 0; /* Mantém o grid atrás do conteúdo */
+        padding: 0;
         top: 0;
         left: 0;
         width: 100%;
         height: 100%;
-        z-index: 0; /* Mantém o grid atrás do conteúdo */
-        padding: 0;
+        position: absolute;
+
+        @media (max-width: variables.$medium ) {
+            position: relative; /* Fixa o fundo na tela */
+
+            .item{
+                &:nth-child(3),
+                &:nth-child(4){
+                    display: none;
+                }
+            }
+        }
+    }
+}
+
+#about,
+#contact,
+#projects{
+    padding-top: 80px;
+    @media (min-width: variables.$large ) {
+        padding-top: 160px;
     }
 }
 
 
-footer.grid-container{
-    .item{
-        @media (min-width: variables.$medium ) {
-            &:nth-child(8){
-                order: 5;
-            }
-    
+#about{
+
+    @media (max-width: variables.$large ) {
+        .item{
             &:nth-child(1){
-                order: 6;
-            }
-    
-            &:nth-child(2){
-                order: 7;
-            }
-    
-            &:nth-child(7){
-                order: 8;
-            }
-    
-            .curriculo{
-                order: 1;
-            }
-    
-            .dribbble{
-                order: 2;
+                grid-column: span 2;
             }
             
-            .linkedin{
-                order: 3;
+            &:nth-child(2){
+                grid-column: span 2;
             }
-    
-            .instagram{
-                order: 4;
+
+            &:nth-child(3){
+                grid-column: span 2;
+            }
+
+            &:nth-child(4){
+                grid-column: span 2;
             }
         }
+    }
+}
+
+#contact{
+
+    @media (max-width: variables.$large ) {
+        .item{
+            &:nth-child(1){
+                grid-column: span 2;
+            }
+
+            &:nth-child(2){
+                grid-column: span 2;
+            }
+        }
+    }
+}
+
+section{
+    @media (min-width: variables.$large ) {
+        min-height: 100vh;
     }
 }
